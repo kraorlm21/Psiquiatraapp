@@ -1,0 +1,13 @@
+# Archivos de compilación
+/build
+
+# Archivos locales
+/local.properties
+
+# Archivos del IDE
+/.idea
+.gradle
+
+# Archivos de keystore (¡MUY IMPORTANTE!)
+/app/keystore.properties
+*.jks
