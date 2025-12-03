@@ -5,8 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
 
-    // --- 1. TU BACKEND (Citas) ---
-    // (Recuerda mantener tu IP real aquí)
+    
     private const val URL_BACKEND = "http://10.0.0.2:8080/"
 
     val psiquiatriaApi: PsiquiatriaApiService by lazy {
@@ -27,4 +26,5 @@ object RetrofitClient {
             .build()
             .create(ClimaApi::class.java)
     }
+
 }
